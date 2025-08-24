@@ -1,40 +1,53 @@
-# 📰 React News App
 
-A simple and responsive news application built with **React**, **Bootstrap**, and vanilla **JavaScript**. It uses a public news API to fetch and display the latest news across multiple categories.
 
-## 🔍 Demo
+📰 NewsTab - React News Application
 
-> 
+A responsive React News Application built with React.js, React Router DOM, and Bootstrap.
+It provides categorized news navigation like Business, Entertainment, General, Health, Science, Sports, and Technology.
 
-## ⚙️ Technologies Used
+🚀 Features
 
-- React (via [Create React App](https://create-react-app.dev/))
-- Bootstrap 5 (via CDN or NPM)
-- JavaScript (ES6+)
-- HTML5 & CSS3
-- NewsAPI (or another public news API)
+🏠 Home Page with latest news
 
-## ✨ Features
+📑 Category-wise News (Business, Entertainment, Health, Science, Sports, Technology)
 
-- Real-time news from a public API
-- Responsive layout using Bootstrap Grid
-- Category filters (e.g., General, Sports, Technology)
-- Loading spinners
-- Error handling for API failures
-- Simple and clean UI
+🔄 Reusable Components for Navbar, News Items, and Spinner (loading state)
 
-## 🚀 Getting Started
+🎨 Responsive Design with Bootstrap 5
 
-### 📦 Prerequisites
+📡 API Integration Ready (can fetch real-time news from any API like NewsAPI
+)
 
-- Node.js (v14+)
-- npm (comes with Node) or yarn
+📂 Project Structure
+src/
+│── component/
+│   ├── NavBar.js       # Navigation Bar with categories
+│   ├── News.js         # News Component
+│   ├── NewsItem.js     # Single news card
+│   ├── Spinner.js      # Loading spinner
+│
+│── App.js              # Main app with routes
+│── index.js            # Entry point
+│── App.css             # Styles
+│── index.css           # Global styles
 
-### 📥 Installation
+🛠️ Installation & Setup
 
-1. Clone the repository:
+Clone this repository:
 
-```bash
-git clone https://github.com/your-username/react-news-app.git
-cd react-news-app
+git clone 
+cd news-tab
 
+
+Install dependencies:
+
+npm install
+
+
+Start the development server:
+
+npm start
+
+
+Open in browser:
+👉 http://localhost:3000
