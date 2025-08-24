@@ -33,7 +33,7 @@ src/
 
 🛠️ Installation & Setup
 
-Clone this repository:
+Clone this repository:https://github.com/roshnichouhan/News-app.git
 
 git clone 
 cd news-tab
